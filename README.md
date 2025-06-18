@@ -1,4 +1,4 @@
-# 🧠 My Portfolio & Tech Blog
+# 🧠 My Portfolio & Tech Blog (In Progress)
 
 A full-stack personal portfolio site with an integrated blog where I share my journey, projects, and tech-related learnings. Built using the MERN stack, styled with Bootstrap, and deployed with GitHub Pages (frontend) and Render (backend).
 
