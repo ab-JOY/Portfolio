@@ -1,27 +1,27 @@
-# 🧠 My Portfolio & Tech Blog (In Progress)
+# My Portfolio & Tech Blog (In Progress)
 
 A full-stack personal portfolio site with an integrated blog where I share my journey, projects, and tech-related learnings. Built using the MERN stack, styled with Bootstrap, and deployed with GitHub Pages (frontend) and Render (backend).
 
 ---
 
-## 📸 Preview
+## Preview
 
 > _[demo]_
 
 ---
 
-## 🚀 Features
+## Features
 
-- 💼 Personal Portfolio (About Me, Projects, Contact)
-- 📝 Tech Blog with Create, Read, Update, Delete (CRUD) features
-- 🗂 Admin-only dashboard for managing blog posts
-- 🌐 Responsive design powered by Bootstrap
-- 🔐 JWT-based authentication (optional)
-- ☁️ Deployment: GitHub Pages (frontend) + Render (backend)
+- Personal Portfolio (About Me, Projects, Contact)
+- Tech Blog with Create, Read, Update, Delete (CRUD) features
+- Admin-only dashboard for managing blog posts
+- Responsive design powered by Bootstrap
+- JWT-based authentication (optional)
+- Deployment: GitHub Pages (frontend) + Render (backend)
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Frontend      | Backend       | Database | Deployment      |
 |---------------|---------------|----------|-----------------|
@@ -30,7 +30,7 @@ A full-stack personal portfolio site with an integrated blog where I share my jo
 
 ---
 
-## 🏗️ Folder Structure
+## Folder Structure
 
 ```
 root/
@@ -53,7 +53,7 @@ root/
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -92,7 +92,7 @@ npm start
 
 ---
 
-## 🌍 Deployment
+## Deployment
 
 ### Frontend (GitHub Pages)
 ```bash
@@ -109,7 +109,7 @@ npm run deploy
 
 ---
 
-## 🧪 API Routes
+## API Routes
 
 ### Blog Post Routes
 - `GET /api/posts` — Get all posts
@@ -122,11 +122,11 @@ npm run deploy
 
 ---
 
-## ✍️ Author
+## Author
 
 **Allen Joy Bueza** – [@ab-JOY](https://github.com/ab-JOY)
 
 ---
 
-## 📄 License
+## License
 

@@ -1,0 +1,243 @@
+/* Projects Page Styles */
+.projects-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #FFDAB9 0%, #ffffff 100%);
+  padding: 4rem 0;
+}
+
+.projects-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+.projects-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #FF9B9B, #F0E68C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.projects-header p {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Project Card Styles */
+.project-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(255, 155, 155, 0.3);
+  border-color: rgba(255, 155, 155, 0.3);
+}
+
+.project-card-image {
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(135deg, #FFDAB9 0%, #F0E68C 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(255, 155, 155, 0.3) 0%, transparent 50%);
+}
+
+.project-card-content {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.project-card-description {
+  font-size: 1rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.project-card-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+  background: #FF9B9B;
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.project-card-footer {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ecf0f1;
+}
+
+.project-link {
+  flex: 1;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.project-link-primary {
+  background: #FF9B9B;
+  color: white;
+  box-shadow: 0 2px 10px rgba(255, 155, 155, 0.3);
+}
+
+.project-link-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 155, 155, 0.5);
+}
+
+.project-link-secondary {
+  background: white;
+  color: #2c3e50;
+  border: 2px solid #FF9B9B;
+}
+
+.project-link-secondary:hover {
+  background: #FF9B9B;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Filter Section */
+.projects-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.7rem 1.5rem;
+  border: 2px solid #FF9B9B;
+  background: white;
+  color: #2c3e50;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #FFDAB9;
+  border-color: #FFDAB9;
+}
+
+.filter-btn.active {
+  background: #FF9B9B;
+  color: white;
+  border-color: transparent;
+}
+
+/* Empty State */
+.projects-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.projects-empty-icon {
+  font-size: 4rem;
+  color: #FF9B9B;
+  margin-bottom: 1rem;
+}
+
+.projects-empty h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.projects-empty p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-header h1 {
+    font-size: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-card-title {
+    font-size: 1.3rem;
+  }
+
+  .project-card-footer {
+    flex-direction: column;
+  }
+}
