@@ -6,6 +6,11 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
+          <div className="hero-image-container">
+            <div className="hero-image-placeholder">
+              <i className="fas fa-user"></i>
+            </div>
+          </div>
           <p className="hero-greeting">Hello, I'm</p>
           <h1 className="hero-name">Allen Joy Bueza</h1>
           <h2 className="hero-title">AI Engineer & Tech Enthusiast</h2>

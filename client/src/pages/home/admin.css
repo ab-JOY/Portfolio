@@ -1,7 +1,7 @@
 /* Admin Dashboard Styles */
 .admin-page {
   min-height: 100vh;
-  background: linear-gradient(180deg, #F0E68C 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #F4D58D 0%, #ffffff 100%);
   padding: 4rem 0;
 }
 
@@ -23,8 +23,8 @@
 .admin-header h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c3e50;
-  background: #FF9B9B;
+  color: #5D1F3C;
+  background: linear-gradient(135deg, #A94064, #E8998D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -32,7 +32,7 @@
 
 .admin-create-btn {
   padding: 1rem 2rem;
-  background: #FF9B9B;
+  background: linear-gradient(135deg, #A94064, #E8998D);
   color: white;
   border: none;
   border-radius: 50px;
@@ -73,7 +73,7 @@
 
 .stat-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 25px rgba(255, 155, 155, 0.2);
+  box-shadow: 0 6px 25px rgba(169, 64, 100, 0.2);
 }
 
 .stat-icon {
@@ -84,19 +84,19 @@
   align-items: center;
   justify-content: center;
   font-size: 1.8rem;
-  background: linear-gradient(135deg, #FF9B9B, #FFDAB9);
+  background: linear-gradient(135deg, #A94064, #E8998D);
   color: white;
 }
 
 .stat-info h3 {
   font-size: 2rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 0.3rem;
 }
 
 .stat-info p {
-  color: #7f8c8d;
+  color: #8B5A6F;
   font-size: 0.95rem;
   margin: 0;
 }
@@ -121,7 +121,7 @@
 .admin-posts-header h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin: 0;
 }
 
@@ -136,8 +136,8 @@
 
 .admin-search:focus {
   outline: none;
-  border-color: #FF9B9B;
-  box-shadow: 0 0 0 3px rgba(255, 155, 155, 0.1);
+  border-color: #A94064;
+  box-shadow: 0 0 0 3px rgba(169, 64, 100, 0.1);
 }
 
 /* Post Item */
@@ -167,14 +167,14 @@
 .post-title {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 0.5rem;
 }
 
 .post-meta {
   display: flex;
   gap: 1.5rem;
-  color: #7f8c8d;
+  color: #8B5A6F;
   font-size: 0.9rem;
 }
 
@@ -204,32 +204,32 @@
 }
 
 .post-action-btn.edit {
-  background: #FFDAB9;
-  color: #2c3e50;
+  background: #E8998D;
+  color: white;
 }
 
 .post-action-btn.edit:hover {
-  background: #ffc89f;
+  background: #d67d71;
   transform: translateY(-2px);
 }
 
 .post-action-btn.delete {
-  background: #ff6b6b;
+  background: #A94064;
   color: white;
 }
 
 .post-action-btn.delete:hover {
-  background: #ff5252;
+  background: #8d3552;
   transform: translateY(-2px);
 }
 
 .post-action-btn.view {
-  background: #F0E68C;
-  color: #2c3e50;
+  background: #F4D58D;
+  color: #5D1F3C;
 }
 
 .post-action-btn.view:hover {
-  background: #e8d870;
+  background: #f0ca6d;
   transform: translateY(-2px);
 }
 
@@ -241,18 +241,18 @@
 
 .admin-empty-icon {
   font-size: 4rem;
-  color: #FF9B9B;
+  color: #A94064;
   margin-bottom: 1rem;
 }
 
 .admin-empty h3 {
   font-size: 1.5rem;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 0.5rem;
 }
 
 .admin-empty p {
-  color: #7f8c8d;
+  color: #8B5A6F;
   margin-bottom: 2rem;
 }
 

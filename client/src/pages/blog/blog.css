@@ -1,7 +1,7 @@
 /* Blog Page Styles */
 .blog-page {
   min-height: 100vh;
-  background: linear-gradient(180deg, #FFFACD 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #F4D58D 0%, #ffffff 100%);
   padding: 4rem 0;
 }
 
@@ -14,9 +14,9 @@
 .blog-header h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 1rem;
-  background: #FF9B9B;
+  background: linear-gradient(135deg, #A94064, #E8998D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -24,8 +24,8 @@
 
 .blog-header p {
   font-size: 1.2rem;
-  color: #2c3e50;
-  opacity: 0.8;
+  color: #5D1F3C;
+  opacity: 0.85;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -56,14 +56,14 @@
 
 .blog-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 30px rgba(255, 155, 155, 0.3);
-  border-color: rgba(255, 155, 155, 0.3);
+  box-shadow: 0 8px 30px rgba(169, 64, 100, 0.3);
+  border-color: rgba(169, 64, 100, 0.3);
 }
 
 .blog-card-image {
   width: 100%;
   height: 200px;
-  background: linear-gradient(135deg, #FF9B9B 0%, #FFDAB9 100%);
+  background: linear-gradient(135deg, #E8998D 0%, #A94064 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +80,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 30% 50%, rgba(255, 250, 205, 0.3) 0%, transparent 50%);
+  background: radial-gradient(circle at 30% 50%, rgba(244, 213, 141, 0.2) 0%, transparent 50%);
 }
 
 .blog-card-content {
@@ -105,7 +105,7 @@
 .blog-card-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 1rem;
   line-height: 1.4;
   display: -webkit-box;
@@ -116,7 +116,7 @@
 
 .blog-card-excerpt {
   font-size: 1rem;
-  color: #7f8c8d;
+  color: #8B5A6F;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   display: -webkit-box;
@@ -134,7 +134,7 @@
 }
 
 .blog-card-link {
-  color: #FF9B9B;
+  color: #A94064;
   text-decoration: none;
   font-weight: 600;
   display: flex;
@@ -144,7 +144,7 @@
 }
 
 .blog-card-link:hover {
-  color: #ff7b7b;
+  color: #E8998D;
   gap: 0.8rem;
 }
 
@@ -155,12 +155,12 @@
 }
 
 .blog-tag {
-  background: linear-gradient(135deg, #FFDAB9, #FFFACD);
-  color: #2c3e50;
+  background: linear-gradient(135deg, #F4D58D, #E8998D);
+  color: #5D1F3C;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Empty State */
@@ -171,19 +171,19 @@
 
 .blog-empty-icon {
   font-size: 4rem;
-  color: #FF9B9B;
+  color: #A94064;
   margin-bottom: 1rem;
 }
 
 .blog-empty h2 {
   font-size: 2rem;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 1rem;
 }
 
 .blog-empty p {
   font-size: 1.1rem;
-  color: #7f8c8d;
+  color: #8B5A6F;
   margin-bottom: 2rem;
 }
 

@@ -1,7 +1,7 @@
 /* Post Form Styles */
 .post-form-page {
   min-height: 100vh;
-  background: linear-gradient(180deg, #FFFACD 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #F4D58D 0%, #ffffff 100%);
   padding: 4rem 0;
 }
 
@@ -18,16 +18,16 @@
 .post-form-header h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #FF9B9B, #FFDAB9);
+  background: linear-gradient(135deg, #A94064, #E8998D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .post-form-header p {
-  color: #7f8c8d;
+  color: #8B5A6F;
   font-size: 1.1rem;
 }
 
@@ -35,7 +35,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: #FF9B9B;
+  color: #A94064;
   text-decoration: none;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -43,7 +43,7 @@
 }
 
 .back-to-admin:hover {
-  color: #ff7b7b;
+  color: #E8998D;
   gap: 0.8rem;
 }
 
@@ -61,7 +61,7 @@
 .form-label {
   display: block;
   font-weight: 600;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 0.8rem;
   font-size: 1.1rem;
 }
@@ -80,8 +80,8 @@
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #FF9B9B;
-  box-shadow: 0 0 0 3px rgba(255, 155, 155, 0.1);
+  border-color: #A94064;
+  box-shadow: 0 0 0 3px rgba(169, 64, 100, 0.1);
 }
 
 .form-textarea {
@@ -130,13 +130,13 @@
 
 .form-btn-secondary {
   background: white;
-  color: #2c3e50;
+  color: #5D1F3C;
   border: 2px solid #ecf0f1;
 }
 
 .form-btn-secondary:hover {
   background: #f8f9fa;
-  border-color: #FF9B9B;
+  border-color: #A94064;
 }
 
 /* Character Counter */
@@ -148,7 +148,7 @@
 }
 
 .char-counter.warning {
-  color: #ff9b9b;
+  color: #A94064;
 }
 
 /* Preview Section */
@@ -161,7 +161,7 @@
 .post-preview h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 1.5rem;
 }
 
@@ -175,27 +175,27 @@
 .preview-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: #5D1F3C;
   margin-bottom: 1rem;
 }
 
 .preview-text {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #2c3e50;
+  color: #5D1F3C;
   white-space: pre-wrap;
 }
 
 .preview-empty {
   text-align: center;
-  color: #7f8c8d;
+  color: #8B5A6F;
   padding: 3rem;
 }
 
 /* Success Message */
 .success-message {
-  background: linear-gradient(135deg, #FFDAB9, #FFFACD);
-  color: #2c3e50;
+  background: linear-gradient(135deg, #E8998D, #F4D58D);
+  color: #5D1F3C;
   padding: 1rem 1.5rem;
   border-radius: 15px;
   margin-bottom: 2rem;

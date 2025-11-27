@@ -26,13 +26,13 @@
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #FF9B9B;
+  color: #A94064;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .navbar-logo:hover {
-  color: #ff7b7b;
+  color: #E8998D;
 }
 
 .navbar-menu {
@@ -45,9 +45,9 @@
 }
 
 .navbar-link {
-  color: #2c3e50;
+  color: #5D1F3C;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
   position: relative;
   padding: 0.5rem 0;
@@ -60,13 +60,13 @@
   bottom: 0;
   left: 0;
   width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #FF9B9B, #FFDAB9);
+  height: 3px;
+  background: linear-gradient(90deg, #E8998D, #A94064);
   transition: width 0.3s ease;
 }
 
 .navbar-link:hover {
-  color: #FF9B9B;
+  color: #A94064;
 }
 
 .navbar-link:hover::after {
@@ -74,7 +74,7 @@
 }
 
 .navbar-link.active {
-  color: #FF9B9B;
+  color: #A94064;
 }
 
 .navbar-link.active::after {
@@ -95,7 +95,7 @@
 .navbar-toggle span {
   width: 25px;
   height: 3px;
-  background-color: #2c3e50;
+  background-color: #5D1F3C;
   border-radius: 3px;
   transition: all 0.3s ease;
 }
@@ -150,7 +150,7 @@
 
 /* Footer Styles */
 .footer-custom {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  background: linear-gradient(135deg, #5D1F3C 0%, #3d1427 100%);
   color: #ffffff;
   padding: 3rem 0 1.5rem;
   margin-top: 4rem;
@@ -170,7 +170,7 @@
 }
 
 .footer-section h3 {
-  color: #FF9B9B;
+  color: #F4D58D;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
@@ -184,7 +184,7 @@
 }
 
 .footer-section a:hover {
-  color: #FFDAB9;
+  color: #E8998D;
 }
 
 .footer-social {
@@ -197,7 +197,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(255, 155, 155, 0.2);
+  background-color: rgba(244, 213, 141, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -205,7 +205,7 @@
 }
 
 .footer-social a:hover {
-  background-color: #FF9B9B;
+  background-color: #E8998D;
   transform: translateY(-3px);
 }
 
